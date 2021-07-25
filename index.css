@@ -40,11 +40,11 @@ h1 {
   width: 40%;
   float: right;
 }
-.banner-img-position{
-    position: relative;
-    top: -105px;
+.banner-img-position {
+  position: relative;
+  top: -105px;
 }
-.banner-img{
+.banner-img {
   width: 100%;
 }
 section {
@@ -54,34 +54,84 @@ section {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(45deg , #EC5195 , #ED4F76 );
+  background-image: linear-gradient(45deg, #ec5195, #ed4f76);
   color: white;
   font-weight: 700;
   padding: 10px 24px;
   border-radius: 5px;
 }
-.biography-area{
-    background-image: url("./img/biography-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+.biography-area {
+  background-image: url("./img/biography-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
-.work-img{
-    width: 30%;
-    float: left;
-    padding-right: 35px;
+.work-img {
+  width: 30%;
+  float: left;
+  padding-right: 35px;
 }
-.work-img-container{
-    margin: auto;
+.work-img-container {
+  margin: auto;
 }
 .work-img-container :last-child {
-    padding-right: 0px !important;
+  padding-right: 0px !important;
 }
 .work-img-container :first-child {
-    padding-left: 24px !important;
+  padding-left: 24px !important;
 }
 h1.latest-title {
-    text-align: center;
-    position: relative;
-    bottom: 100px;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+.latest-work {
+  background-image: url("./img/latest-work-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.client-say {
+  text-align: center;
+}
+.client-postion {
+  position: relative;
+  bottom: 174px;
+}
+.client-say h1 {
+  padding-bottom: 65px;
+}
+.client-say h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+.client-say h6 {
+  color: #707070;
+}
+.client-say p {
+  color: black;
+  width: 426px;
+  margin: auto;
+  padding-top: 48px;
+}
+.contac-message {
+  width: 460px;
+  text-align: center;
+  background-color: #ed4f76;
+  margin: auto;
+  position: relative;
+  bottom: 85px;
+  padding: 11px 26px;
+  border-radius: 10px;
+  color: white !important;
+}
+.contac-message p {
+  color: white;
+  margin-bottom: 5px;
+}
+footer {
+  text-align: center;
+}
+section.client-area {
+  padding-bottom: 0px;
 }
