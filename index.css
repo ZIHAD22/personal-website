@@ -66,3 +66,22 @@ section {
     background-position: center;
     background-size: 100%;
 }
+.work-img{
+    width: 30%;
+    float: left;
+    padding-right: 35px;
+}
+.work-img-container{
+    margin: auto;
+}
+.work-img-container :last-child {
+    padding-right: 0px !important;
+}
+.work-img-container :first-child {
+    padding-left: 24px !important;
+}
+h1.latest-title {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
