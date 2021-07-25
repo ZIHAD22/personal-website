@@ -93,6 +93,10 @@ h1.latest-title {
 }
 .client-say {
   text-align: center;
+  background-image: url("./img/footer-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .client-postion {
   position: relative;
