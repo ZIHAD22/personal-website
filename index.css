@@ -6,28 +6,26 @@ body {
   font-family: Poppins, sans-serif;
 }
 .top-banner {
-  height: 635px;
   background-image: url("./img/header-bg.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 100%;
 }
-.top-banner-wrapper {
+.banner-wrapper {
   width: 1170px;
   margin: auto;
   overflow: hidden;
   padding-top: 160px;
 }
-p{
-    color:#707070;
+p {
+  color: #707070;
+  margin-bottom: 30px;
 }
-.left-banner p {
-    margin-bottom: 30px;
-}
-.left-banner h2 {
+h2 {
   font-size: 27px;
   margin-bottom: 7px;
 }
-.left-banner h1 {
+h1 {
   font-size: 35px;
   margin-bottom: 20px;
 }
@@ -41,20 +39,30 @@ p{
 .rigth-banner {
   width: 40%;
   float: right;
-  position: relative;
-  top: -105px;
 }
-.rigth-banner img {
+.banner-img-position{
+    position: relative;
+    top: -105px;
+}
+.banner-img{
   width: 100%;
 }
 section {
   overflow: hidden;
+  height: 635px;
+  padding-bottom: 85px;
 }
-.link-button{
-    text-decoration: none;
-    background-color: rgb(236, 76, 122);
-    color: white;
-    font-weight: 700;
-    padding: 10px 24px;
-    border-radius: 5px;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg , #EC5195 , #ED4F76 );
+  color: white;
+  font-weight: 700;
+  padding: 10px 24px;
+  border-radius: 5px;
+}
+.biography-area{
+    background-image: url("./img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
